@@ -25,7 +25,21 @@ header {
   padding: 30px;
 }
 
-.alertImages {
-  background-color: #ffffff;
-  height: 10px;
+.waypoint-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  margin: 40px;
+}
+
+.waypoint-one {
+  background-image: url('../assets/images/background-one.png');
+}
+
+.waypoint-two {
+  background-image: url('../assets/images/background-two.png');
+}
+
+.waypoint-three {
+  background-image: url('../assets/images/background-three.png');
 }
