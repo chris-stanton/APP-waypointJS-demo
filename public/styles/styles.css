@@ -9,7 +9,7 @@ body {
 header {
   font-size: 40px;
   color: #ffffff;
-  padding: 5px auto;
+  padding: 25px;
   background-color: #000000;
   opacity: 0.7;
 }
@@ -20,12 +20,7 @@ header {
 }
 
 .section-container {
-  display: flex;
-  /*flex-direction: row;*/
+  flex-direction: row;
   margin: 200px auto;
   padding: 30px;
-}
-
-.section-container h1 {
-
 }

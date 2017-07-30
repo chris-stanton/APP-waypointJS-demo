@@ -1,8 +1,10 @@
 
-console.log("working");
+console.log("client.js sourced!");
+
 var waypoint = new Waypoint({
-  element: document.getElementById('basic-waypoint'),
-  handler: function(direction) {
-    console.log('Scrolled to waypoint-one')
+  element: document.getElementById('header'),
+  handler: function() {
+    notify('Basic waypoint triggered');
+    alert("Basic waypoint triggered");
   }
-})
+});
