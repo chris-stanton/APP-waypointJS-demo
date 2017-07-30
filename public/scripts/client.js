@@ -2,9 +2,8 @@
 console.log("client.js sourced!");
 
 var waypoint = new Waypoint({
-  element: document.getElementById('basic-waypoint'),
+  element: document.getElementById('waypoint-two'),
   handler: function() {
-    notify('Basic waypoint triggered');
-    alert("Basic waypoint triggered");
+    alertify.success("Success log message");
   }
 });
