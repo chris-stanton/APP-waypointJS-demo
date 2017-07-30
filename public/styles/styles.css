@@ -4,6 +4,7 @@ body {
   padding: 0px;
   font-family: sans-serif;
   text-align: center;
+  background-color: #c9c9c9;
 }
 
 header {
@@ -21,14 +22,15 @@ header {
 
 .section-container {
   flex-direction: row;
-  margin: 200px auto;
+  margin: 100px auto;
   padding: 30px;
 }
 
 .waypoint-container {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
+  background-attachment: fixed;
+  height: 600px;
   margin: 40px;
 }
 
