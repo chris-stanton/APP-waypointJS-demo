@@ -13,10 +13,6 @@ a {
   color: #ffffff;
 }
 
-img {
-  width: 25px;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -53,6 +49,10 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 600px;
+}
+
+img {
+  width: 25px;
 }
 
 .waypoint-one {
