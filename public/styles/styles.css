@@ -24,3 +24,8 @@ header {
   margin: 200px auto;
   padding: 30px;
 }
+
+.alertImages {
+  background-color: #ffffff;
+  height: 10px;
+}
