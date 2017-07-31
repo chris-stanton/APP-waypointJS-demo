@@ -4,7 +4,7 @@
 ---
 
 ## Description:
-##### Functioning parallax webpage that uses waypointJS to its fullest.  WaypointJS is onlt triggering alerts in this example but can be used to trigger anything with Javascript.  This project contains only HTML, CSS, Javascript, WaypointJS and notifyJS. Project is both mobile and desktop friendly.
+##### Functioning parallax webpage that uses WaypointJS to its fullest.  WaypointJS is only triggering alerts in this example but can be used to trigger anything with Javascript.  This project contains only HTML, CSS, Javascript, WaypointJS and NotifyJS. Project is both mobile and desktop friendly.
 
 ###### Desktop views:
 <img src="./public/assets/images/screenshots/desktop-one.png" width="50%">
