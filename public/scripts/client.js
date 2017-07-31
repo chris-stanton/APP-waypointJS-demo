@@ -26,20 +26,22 @@ var waypoint = new Waypoint({
 });
 
 var waypoint = new Waypoint({
-  element: document.getElementById('section-four'),
+  element: document.getElementById('section-three'),
   handler: function(direction) {
-    alertify.log("<div>" +
-                    "<input id='input' type='text'>" +
-                    "<button type='button' onclick='inputButton()'></button>" +
-                 "</div>");
+    alertify
+    .closeLogOnClick(false)
+    .log("<div>" +
+            "<input id='input' type='text'>" +
+            "<button type='button' onclick='inputButton()'> Submit </button>" +
+          "</div>");
   },
   offset: 250
 });
 
 // button click listener
 function inputButton (){
-  var input = document.getElementById('input').value;
-  console.log(input);
+  var inputValue = document.getElementById('input').value;
+  console.log(inputValue);
 };
 
 var waypoint = new Waypoint({
@@ -48,13 +50,9 @@ var waypoint = new Waypoint({
     // alertify is need
     alertify
     .closeLogOnClick(true)
-    .log("<a href='#section-one'><div> Click To Go <img src='../public/assets/images/arrow-up.ico'></div></a>")
+    .log("<a href='#section-one'>" +
+            "<div> Top <img src='../public/assets/images/arrow-up.ico'></div>" +
+          "</a>")
   },
   offset: 400
 });
-
-
-
-
-
-// alertify.success("<div> Waypoint Two </div>");

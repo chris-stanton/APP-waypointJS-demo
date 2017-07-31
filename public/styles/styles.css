@@ -8,6 +8,10 @@ body {
 
 }
 
+/*main {
+  margin-bottom: 40px;
+}*/
+
 a {
   text-decoration: none;
   color: #ffffff;
@@ -48,7 +52,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 600px;
+  height: 500px;
 }
 
 img {
@@ -77,4 +81,11 @@ footer {
   padding: 5px;
   background-color: #000000;
   opacity: 0.3;
+}
+
+.footer-background {
+  background-color: #000000;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 5px;
 }
